@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/sars-cov-2-vis/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/sars-cov-2-vis/static/js/main.efd095df.chunk.js",
-    "main.js.map": "/sars-cov-2-vis/static/js/main.efd095df.chunk.js.map",
-    "runtime-main.js": "/sars-cov-2-vis/static/js/runtime-main.0b706302.js",
-    "runtime-main.js.map": "/sars-cov-2-vis/static/js/runtime-main.0b706302.js.map",
-    "static/js/2.b0f16efe.chunk.js": "/sars-cov-2-vis/static/js/2.b0f16efe.chunk.js",
-    "static/js/2.b0f16efe.chunk.js.map": "/sars-cov-2-vis/static/js/2.b0f16efe.chunk.js.map",
-    "static/js/3.aac77574.chunk.js": "/sars-cov-2-vis/static/js/3.aac77574.chunk.js",
-    "static/js/3.aac77574.chunk.js.map": "/sars-cov-2-vis/static/js/3.aac77574.chunk.js.map",
+    "main.css": "/sars-cov-2-vis/static/css/main.2518cab6.chunk.css",
+    "main.js": "/sars-cov-2-vis/static/js/main.ceb73867.chunk.js",
+    "main.js.map": "/sars-cov-2-vis/static/js/main.ceb73867.chunk.js.map",
+    "runtime-main.js": "/sars-cov-2-vis/static/js/runtime-main.a9ebc9dd.js",
+    "runtime-main.js.map": "/sars-cov-2-vis/static/js/runtime-main.a9ebc9dd.js.map",
+    "static/css/2.fe708519.chunk.css": "/sars-cov-2-vis/static/css/2.fe708519.chunk.css",
+    "static/js/2.2785e659.chunk.js": "/sars-cov-2-vis/static/js/2.2785e659.chunk.js",
+    "static/js/2.2785e659.chunk.js.map": "/sars-cov-2-vis/static/js/2.2785e659.chunk.js.map",
+    "static/js/3.77617b5c.chunk.js": "/sars-cov-2-vis/static/js/3.77617b5c.chunk.js",
+    "static/js/3.77617b5c.chunk.js.map": "/sars-cov-2-vis/static/js/3.77617b5c.chunk.js.map",
     "index.html": "/sars-cov-2-vis/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/sars-cov-2-vis/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.b0f16efe.chunk.js.LICENSE.txt": "/sars-cov-2-vis/static/js/2.b0f16efe.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/sars-cov-2-vis/static/media/logo.6ce24c58.svg"
+    "static/css/2.fe708519.chunk.css.map": "/sars-cov-2-vis/static/css/2.fe708519.chunk.css.map",
+    "static/css/main.2518cab6.chunk.css.map": "/sars-cov-2-vis/static/css/main.2518cab6.chunk.css.map",
+    "static/js/2.2785e659.chunk.js.LICENSE.txt": "/sars-cov-2-vis/static/js/2.2785e659.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b706302.js",
-    "static/js/2.b0f16efe.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.efd095df.chunk.js"
+    "static/js/runtime-main.a9ebc9dd.js",
+    "static/css/2.fe708519.chunk.css",
+    "static/js/2.2785e659.chunk.js",
+    "static/css/main.2518cab6.chunk.css",
+    "static/js/main.ceb73867.chunk.js"
   ]
 }
