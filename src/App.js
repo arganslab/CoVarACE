@@ -1,25 +1,48 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+
+import DataViewer from './components/DataViewer';
+import StructureViewer from './components/StructureViewer';
+import VariantSelect from './components/VariantSelect';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      variant: 'WT',
+    };
+
+    this.handleVariantSelect = this.handleVariantSelect.bind(this);
+  }
+
+  handleVariantSelect(variant) {
+    this.setState({ variant });
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <div className="App-info">
+          <h2>
+            About
+          </h2>
+          <ul>
+            <li>add instructions/info here</li>
+          </ul>
+        </div>
+        <VariantSelect 
+          handleVariantSelect={(selection) => this.handleVariantSelect(selection) }
+        />
+        <div className="data-container">
+          <StructureViewer 
+            variant={this.state.variant}
+          />
+          <DataViewer 
+            variant={this.state.variant} 
+          />
+        </div>
+      </div>
+    );
+  }
+}

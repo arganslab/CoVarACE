@@ -1,0 +1,22 @@
+.variant-select {
+  max-height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(2.5px + 2vmin);
+  padding-bottom: 1vh;
+}
+
+.variant-select > p {
+  margin: 0;
+  padding-right: 1vw;
+  padding-left: 5vw;
+  color: white;
+  font-size: calc(5px + 2vmin);
+  font-weight: 600;
+}
+
+.variant-select > div {
+  min-width: 25vw;
+}

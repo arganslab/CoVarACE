@@ -1,0 +1,338 @@
+[
+    {
+        "value": "WT",
+        "label": "Wildtype",
+        "continent": "",
+        "country": "",
+        "mutations": []
+    },
+    {
+        "value": "1crn",
+        "label": "1crn (test)",
+        "continent": "Alberta",
+        "country": "Calgary",
+        "mutations": []
+    },
+    {
+        "value": "E484K",
+        "label": "E484K",
+        "continent": "Africa",
+        "country": "South Africa",
+        "mutations": []
+    },
+    {
+        "value": "T478I",
+        "label": "T478I",
+        "continent": "Africa",
+        "country": "South Africa",
+        "mutations": []
+    },
+    {
+        "value": "F490V",
+        "label": "F490V",
+        "continent": "Africa",
+        "country": "South Africa",
+        "mutations": []
+    },
+    {
+        "value": "A475V",
+        "label": "A475V",
+        "continent": "Africa",
+        "country": "South Africa",
+        "mutations": []
+    },
+    {
+        "value": "P384S",
+        "label": "P384S",
+        "continent": "Africa",
+        "country": "South Africa",
+        "mutations": []
+    },
+    {
+        "value": "I468T",
+        "label": "I468T",
+        "continent": "Africa",
+        "country": "South Africa",
+        "mutations": []
+    },
+    {
+        "value": "S494D",
+        "label": "S494D",
+        "continent": "Africa",
+        "country": "Cote d'Ivoire",
+        "mutations": []
+    },
+    {
+        "value": "S494P",
+        "label": "S494P",
+        "continent": "Africa",
+        "country": "Cote d'Ivoire",
+        "mutations": []
+    },
+    {
+        "value": "P330S",
+        "label": "P330S",
+        "continent": "Africa",
+        "country": "Cote d'Ivoire",
+        "mutations": []
+    },
+    {
+        "value": "N481K",
+        "label": "N481K",
+        "continent": "Oceania",
+        "country": "Australia",
+        "mutations": []
+    },
+    {
+        "value": "I410V",
+        "label": "I410V",
+        "continent": "Oceania",
+        "country": "Australia",
+        "mutations": []
+    },
+    {
+        "value": "L452M",
+        "label": "L452M",
+        "continent": "Oceania",
+        "country": "Australia",
+        "mutations": []
+    },
+    {
+        "value": "N501Y",
+        "label": "N501Y",
+        "continent": "Europe",
+        "country": "England",
+        "mutations": []
+    },
+    {
+        "value": "N440K",
+        "label": "N440K",
+        "continent": "Asia",
+        "country": "Hong Kong",
+        "mutations": []
+    },
+    {
+        "value": "S477I",
+        "label": "S477I",
+        "continent": "Asia",
+        "country": "India",
+        "mutations": []
+    },
+    {
+        "value": "P384L",
+        "label": "P384L",
+        "continent": "Asia",
+        "country": "India",
+        "mutations": []
+    },
+    {
+        "value": "E484A",
+        "label": "E484A",
+        "continent": "North America",
+        "country": "USA",
+        "mutations": []
+    },
+    {
+        "value": "V534F",
+        "label": "V534F",
+        "continent": "Europe",
+        "country": "Denmark",
+        "mutations": []
+    },
+    {
+        "value": "N501T",
+        "label": "N501T",
+        "continent": "North America",
+        "country": "USA",
+        "mutations": []
+    },
+    {
+        "value": "V362F",
+        "label": "V362F",
+        "continent": "North America",
+        "country": "USA",
+        "mutations": []
+    },
+    {
+        "value": "L461F",
+        "label": "L461F",
+        "continent": "North America",
+        "country": "USA",
+        "mutations": []
+    },
+    {
+        "value": "A522S",
+        "label": "A522S",
+        "continent": "North America",
+        "country": "USA",
+        "mutations": []
+    },
+    {
+        "value": "R357K",
+        "label": "R357K",
+        "continent": "North America",
+        "country": "Canada",
+        "mutations": []
+    },
+    {
+        "value": "A520S",
+        "label": "A520S",
+        "continent": "Oceania",
+        "country": "New Zealand",
+        "mutations": []
+    },
+    {
+        "value": "E484Q",
+        "label": "E484Q",
+        "continent": "Asia",
+        "country": "Bahrain",
+        "mutations": []
+    },
+    {
+        "value": "N354S",
+        "label": "N354S",
+        "continent": "North America",
+        "country": "Mexico",
+        "mutations": []
+    },
+    {
+        "value": "E406D",
+        "label": "E406D",
+        "continent": "South America",
+        "country": "Peru",
+        "mutations": []
+    },
+    {
+        "value": "E471G",
+        "label": "E471G",
+        "continent": "Europe",
+        "country": "Sweden",
+        "mutations": []
+    },
+    {
+        "value": "F338L",
+        "label": "F338L",
+        "continent": "Europe",
+        "country": "Switzerland",
+        "mutations": []
+    },
+    {
+        "value": "A522V",
+        "label": "A522V",
+        "continent": "Europe",
+        "country": "Netherlands",
+        "mutations": []
+    },
+    {
+        "value": "S373L",
+        "label": "S373L",
+        "continent": "North America",
+        "country": "USA",
+        "mutations": []
+    },
+    {
+        "value": "F490S",
+        "label": "F490S",
+        "continent": "Africa",
+        "country": "South Africa",
+        "mutations": []
+    },
+    {
+        "value": "V382L",
+        "label": "V382L",
+        "continent": "North America",
+        "country": "USA",
+        "mutations": []
+    },
+    {
+        "value": "V327I",
+        "label": "V327I",
+        "continent": "North America",
+        "country": "USA",
+        "mutations": []
+    },
+    {
+        "value": "S477N",
+        "label": "S477N",
+        "continent": "Asia",
+        "country": "India",
+        "mutations": []
+    },
+    {
+        "value": "P521R",
+        "label": "P521R",
+        "continent": "North America",
+        "country": "USA",
+        "mutations": []
+    },
+    {
+        "value": "P479S",
+        "label": "P479S",
+        "continent": "Asia",
+        "country": "India",
+        "mutations": []
+    },
+    {
+        "value": "P499L",
+        "label": "P499L",
+        "continent": "South America",
+        "country": "Argentina",
+        "mutations": []
+    },
+    {
+        "value": "A348S",
+        "label": "A348S",
+        "continent": "Asia",
+        "country": "Iraq",
+        "mutations": []
+    },
+    {
+        "value": "V534I",
+        "label": "V534I",
+        "continent": "Europe",
+        "country": "Scotland",
+        "mutations": []
+    },
+    {
+        "value": "R346S",
+        "label": "R346S",
+        "continent": "Europe",
+        "country": "Denmark",
+        "mutations": []
+    },
+    {
+        "value": "K417N",
+        "label": "K417N",
+        "continent": "Africa",
+        "country": "South Africa",
+        "mutations": []
+    },
+    {
+        "value": "R408K",
+        "label": "R408K",
+        "continent": "Africa",
+        "country": "Tunisia",
+        "mutations": []
+    },
+    {
+        "value": "S359N",
+        "label": "S359N",
+        "continent": "Asia",
+        "country": "Thailand",
+        "mutations": []
+    },
+    {
+        "value": "N439K",
+        "label": "N439K",
+        "continent": "South America",
+        "country": "Brazil",
+        "mutations": []
+    },
+    {
+        "value": "V445A",
+        "label": "V445A",
+        "continent": "Europe",
+        "country": "Belgium",
+        "mutations": []
+    }
+]
