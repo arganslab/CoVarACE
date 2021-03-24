@@ -22,7 +22,7 @@ export default class ViewerOptions extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            repr: 'ribbon',
+            //repr: 'ribbon',
             threshold: -1,
         };
 
@@ -31,11 +31,13 @@ export default class ViewerOptions extends Component {
     }
 
     setRepr = repr => {
-        this.setState({ repr });
+        //this.setState({ repr: repr.toLowerCase() });
+        if (repr.value !== null) {
+            this.props.changeRepr(repr.value.toLowerCase().replace(/\s/g, ''));
+        }
     }
 
     adjustThreshold = val => {
-        console.log(val);
         if (val !== null) {
             this.setState({ threshold: val });
         }

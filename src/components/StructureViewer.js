@@ -16,6 +16,7 @@ export default class StructureViewer extends Component {
         }
 
         this.stage = null;
+        this.changeRepr = this.changeRepr.bind(this);
     }
 
     componentDidMount() {
@@ -23,8 +24,27 @@ export default class StructureViewer extends Component {
         const pdbData = raw('../data/structures/SARSCOV2_g_dry.pdb');
         const blobComplex = new Blob([ pdbData ], { type: 'text/plain' });
         this.stage.loadFile( blobComplex, { ext: "pdb" } ).then( comp => {
-            comp.addRepresentation( "ribbon", { multipleBond: true } );
+            comp.addRepresentation( "ribbon", { multipleBond: true });
+            comp.autoView();
         } );
+    }
+
+    changeRepr = repr => {
+        this.setState({ repr });
+    };
+
+    // need to add logic for stage to update on resize
+
+    componentDidUpdate(prevProps, prevState) {
+        if (prevProps.variant !== this.props.variant) {
+            // need to add highlighting
+        }
+        if (prevState.repr !== this.state.repr) {
+            this.stage.eachComponent(comp => {
+                comp.removeAllRepresentations();
+                comp.addRepresentation(this.state.repr, { multipleBond: true });
+            });
+        }
     }
 
     render() {
@@ -33,7 +53,7 @@ export default class StructureViewer extends Component {
                 <div className="viewer-container">
                     <div id="viewport" className="viewer-canvas"></div>
                 </div>
-                <ViewerOptions />
+                <ViewerOptions changeRepr={this.changeRepr} />
             </div>
         );
     }
