@@ -1,16 +1,16 @@
 [
     {
-        "value": "WT",
-        "label": "Wildtype",
+        "value": "Nonglycosylated",
+        "label": "Non-Glycosylated WT",
         "continent": "",
         "country": "",
         "mutations": []
     },
     {
-        "value": "1crn",
-        "label": "1crn (test)",
-        "continent": "Alberta",
-        "country": "Calgary",
+        "value": "Glycosylated",
+        "label": "Glycosylated WT",
+        "continent": "",
+        "country": "",
         "mutations": []
     },
     {

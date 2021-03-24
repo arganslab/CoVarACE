@@ -10,7 +10,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      variant: 'WT',
+      variant: 'Nonglycosylated',
     };
 
     this.handleVariantSelect = this.handleVariantSelect.bind(this);
