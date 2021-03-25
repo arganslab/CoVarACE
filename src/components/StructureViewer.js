@@ -33,8 +33,6 @@ export default class StructureViewer extends Component {
         this.setState({ repr });
     };
 
-    // need to add logic for stage to update on resize
-
     componentDidUpdate(prevProps, prevState) {
         if (prevProps.variant !== this.props.variant) {
             // need to add highlighting
@@ -44,6 +42,10 @@ export default class StructureViewer extends Component {
                 comp.removeAllRepresentations();
                 comp.addRepresentation(this.state.repr, { multipleBond: true });
             });
+        }
+        // logic for stage to update on resize
+        if (prevProps.vWidth !== this.props.vWidth || prevProps.vHeight !== this.props.vHeight) {
+            this.stage.handleResize();
         }
     }
 

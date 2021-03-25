@@ -11,13 +11,29 @@ export default class App extends Component {
     super(props);
     this.state = {
       variant: 'Nonglycosylated',
+      vWidth: 0, 
+      vHeight: 0, 
     };
 
     this.handleVariantSelect = this.handleVariantSelect.bind(this);
+    this.updateDimensions = this.updateDimensions.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateDimensions();
+    window.addEventListener("resize", this.updateDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateDimensions);
   }
 
   handleVariantSelect(variant) {
     this.setState({ variant });
+  }
+
+  updateDimensions() {
+    this.setState({ vWidth: window.innerWidth, vHeight: window.innerHeight });
   }
 
   render() {
@@ -36,10 +52,14 @@ export default class App extends Component {
         />
         <div className="data-container">
           <StructureViewer 
-            variant={this.state.variant}
+            variant={this.state.variant} 
+            vWidth={this.state.vWidth} 
+            vHeight={this.state.vHeight} 
           />
           <DataViewer 
             variant={this.state.variant} 
+            vWidth={this.state.vWidth} 
+            vHeight={this.state.vHeight} 
           />
         </div>
       </div>

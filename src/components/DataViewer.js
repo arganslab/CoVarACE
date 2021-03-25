@@ -9,32 +9,19 @@ export default class DataViewer extends Component {
         super(props);
         this.state = {
             decompositionData: {}, 
-            vWidth: 0, 
-            vHeight: 0, 
         }
 
-        this.updateDimensions = this.updateDimensions.bind(this);
         this.updateDecompositionData = this.updateDecompositionData.bind(this);
     }
 
     componentDidMount() {
         this.updateDecompositionData();
-        this.updateDimensions();
-        window.addEventListener("resize", this.updateDimensions);
     }
 
     componentDidUpdate(prevProps) {
         if (prevProps.variant !== this.props.variant) {
             this.updateDecompositionData();
         }
-    }
-
-    componentWillUnmount() {
-        window.removeEventListener("resize", this.updateDimensions);
-    }
-
-    updateDimensions() {
-        this.setState({ vWidth: window.innerWidth, vHeight: window.innerHeight });
     }
 
     updateDecompositionData() {
@@ -59,8 +46,8 @@ export default class DataViewer extends Component {
                 {
                 (
                     Object.keys(this.state.decompositionData).length > 0
-                    && this.state.vWidth > 0 
-                    && this.state.vHeight > 0
+                    && this.props.vWidth > 0 
+                    && this.props.vHeight > 0
                 )
                 ?    <Plot
                         data={[
@@ -71,8 +58,8 @@ export default class DataViewer extends Component {
                             },
                         ]}
                         layout={ {
-                            width: 0.4 * this.state.vWidth, 
-                            height: 0.6 * this.state.vHeight, 
+                            width: 0.4 * this.props.vWidth, 
+                            height: 0.6 * this.props.vHeight, 
                             title: `Per-Residue Free Energy Decomposition: ${plotTitleFragment}`
                         } }
                     />
