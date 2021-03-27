@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import DataViewer from './components/DataViewer';
+import Footer from './components/Footer';
 import StructureViewer from './components/StructureViewer';
 import VariantSelect from './components/VariantSelect';
 import './App.css';
@@ -62,6 +63,7 @@ export default class App extends Component {
             vHeight={this.state.vHeight} 
           />
         </div>
+        <Footer />
       </div>
     );
   }
