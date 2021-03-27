@@ -63,6 +63,7 @@ input[type="range"] {
     width: 100%;
     border-radius: 5vmin;
     background: transparent;
+    border: 1px solid #525252;
 }
 
 input[type=range]::-ms-track {
@@ -71,6 +72,7 @@ input[type=range]::-ms-track {
   background: transparent; 
   border-color: transparent;
   color: transparent;
+  border: 1px solid #525252;
 }
 
 input[type=range]::-webkit-slider-runnable-track {

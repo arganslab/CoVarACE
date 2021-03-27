@@ -1,5 +1,5 @@
 .App {
-  background-color: #131313;/*#282c34;*/
+  background-color: #fefefe;/*#131313 #282c34;*/
   width: 100vw;
   height: 100vh;
 }
@@ -11,19 +11,19 @@
   align-items: flex-start;
   justify-content: center;
   font-size: calc(5px + 2vmin);
-  color: white;
+  color: #131313; /*white*/
 }
 
 .accent {
-  color: #65ccb8; /*#61dafb;*/
+  color: #131313; /*#65ccb8 #61dafb;*/
 }
 
 hr.solid {
   width: 100%;
   /*border-top: 0px solid #aaa;*/
-  background-color: #65ccb8;
-  border-color: #65ccb8;
-  color: #65ccb8;
+  background-color: #131313; /*#65ccb8*/
+  border-color: #131313; /*#65ccb8*/
+  color: #131313; /*#65ccb8*/
   border-style: solid;
 }
 

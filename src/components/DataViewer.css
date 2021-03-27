@@ -6,9 +6,9 @@
     width: 40vw;
     height: 60vh;
     border-radius: 0;
-    border: 1px solid #65ccb8;
+    border: 1px solid #131313; /*#65ccb8*/
 }
 
 .plot-container > h4 {
-    color: #65ccb8;
+    color: #131313; /*#65ccb8*/
 }
