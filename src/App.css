@@ -5,12 +5,12 @@
 }
 
 .App-info {
-  padding: 7.5vh 5vw;
+  padding: 0 5vw 7.5vh 5vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  font-size: calc(5px + 2vmin);
+  font-size: calc(5px + 1.75vmin);
   color: #131313; /*white*/
 }
 

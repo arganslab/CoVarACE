@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import DataViewer from './components/DataViewer';
 import Footer from './components/Footer';
+import Header from './components/Header';
 import StructureViewer from './components/StructureViewer';
 import VariantSelect from './components/VariantSelect';
 import './App.css';
@@ -40,6 +41,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header />
         <div className="App-info">
           <h2>
             About

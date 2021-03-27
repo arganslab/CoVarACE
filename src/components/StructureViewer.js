@@ -20,7 +20,7 @@ export default class StructureViewer extends Component {
     }
 
     componentDidMount() {
-        this.stage = new Stage('viewport');
+        this.stage = new Stage('viewport', { backgroundColor: "white" });
         const pdbData = raw('../data/structures/SARSCOV2_g_dry.pdb');
         const blobComplex = new Blob([ pdbData ], { type: 'text/plain' });
         this.stage.loadFile( blobComplex, { ext: "pdb" } ).then( comp => {

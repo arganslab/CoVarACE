@@ -42,29 +42,31 @@ export default class DataViewer extends Component {
         }
 
         return (
-            <div className="plot-container">
-                {
-                (
-                    Object.keys(this.state.decompositionData).length > 0
-                    && this.props.vWidth > 0 
-                    && this.props.vHeight > 0
-                )
-                ?    <Plot
-                        data={[
-                            {
-                                type: 'bar', 
-                                x: this.state.decompositionData.resids, 
-                                y: this.state.decompositionData.totals.averages, 
-                            },
-                        ]}
-                        layout={ {
-                            width: 0.4 * this.props.vWidth, 
-                            height: 0.6 * this.props.vHeight, 
-                            title: `Per-Residue Free Energy Decomposition: ${plotTitleFragment}`
-                        } }
-                    />
-                : <h4>Please select another structure.</h4>
-                }
+            <div>
+                <div className="plot-container">
+                    {
+                    (
+                        Object.keys(this.state.decompositionData).length > 0
+                        && this.props.vWidth > 0 
+                        && this.props.vHeight > 0
+                    )
+                    ?    <Plot
+                            data={[
+                                {
+                                    type: 'bar', 
+                                    x: this.state.decompositionData.resids, 
+                                    y: this.state.decompositionData.totals.averages, 
+                                },
+                            ]}
+                            layout={ {
+                                width: 0.4 * this.props.vWidth, 
+                                height: 0.6 * this.props.vHeight, 
+                                title: `Per-Residue Free Energy Decomposition: ${plotTitleFragment}`
+                            } }
+                        />
+                    : <h4>Please select another structure.</h4>
+                    }
+                </div>
             </div>
         );
     }
