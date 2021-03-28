@@ -58,7 +58,7 @@ export default class App extends Component {
             <li>Use mouse or trackpad controls to interact with the structure visualization viewport.</li>
             <li>Use the available toggles on the free energy decomposition plot to highlight specific data points and save the plot to an image.</li>
             <li>Customize the representation of the Spike-ACE2 complex through the representation dropdown.</li>
-            <li>Adjust the threshold to view key residues with an energy contribution below this value.</li>
+            <li>[in development] Adjust the threshold to view key residues with an energy contribution below this value.</li>
           </ul>
         </div>
         <VariantSelect 
