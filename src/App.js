@@ -54,6 +54,7 @@ export default class App extends Component {
           </p>
           <ul>
             <li>Select a variant from the dropdown below to view its associated per-residue free energy decomposition.</li>
+            <li>Filter variants by country or continent by typing in the variant dropdown/search bar.</li>
             <li>Use mouse or trackpad controls to interact with the structure visualization viewport.</li>
             <li>Use the available toggles on the free energy decomposition plot to highlight specific data points and save the plot to an image.</li>
             <li>Customize the representation of the Spike-ACE2 complex through the representation dropdown.</li>
