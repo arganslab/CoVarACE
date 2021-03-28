@@ -1,5 +1,46 @@
 .footer {
-    height: 10vh;
-    width: 100vw;
-    padding-top: 5vh;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5vh 4.5vw 2.5vh 4.5vw;
+    background-color: #fbfbfb;
+    box-shadow: 0px -3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer p {
+    margin: 0;
+    padding-top: 0.5vh;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: calc(5px + 1.3vmin);
+}
+
+.footer a {
+    text-decoration: none;
+    color: #1a2b7a;
+}
+
+.footer-acknowledgements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 9vh;
+    padding-left: 1vw;
+}
+
+.v-line {
+    padding-left: 2.5vw;
+    border-right: 1px solid #cccccc;
+    min-height: 9.75vh;
 }

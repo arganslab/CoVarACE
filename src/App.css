@@ -32,6 +32,7 @@ hr.solid {
   width: 100vw;
   height: 70vh;
   padding-top: 3.5vh;
+  padding-bottom: 7.5vh;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-evenly;
