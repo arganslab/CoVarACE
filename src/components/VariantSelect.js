@@ -12,7 +12,7 @@ const variantOptions = require('../data/variantList.json');
 
 const customStyles = {
   option: (provided, state) => {
-    const themeColor = chroma('#65ccb8');
+    const themeColor = chroma('#ff4040'); //#65ccb8
     return {
       ...provided,
       backgroundColor: state.isSelected 
@@ -70,7 +70,7 @@ export default class VariantSelect extends Component {
               borderRadius: 2,
               colors: {
                 ...theme.colors,
-                primary: '#65ccb8',
+                primary: '#ff4040', //#65ccb8
               },
             })}
           />

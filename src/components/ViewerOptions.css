@@ -36,9 +36,9 @@
 
 .repr-btn {
     min-width: 5vw;
-    background-color: #65ccb8;
+    background-color: #ff4040; /*#65ccb8*/
     color: #131313;
-    border: 2px solid #65ccb8;
+    border: 2px solid #ff4040; /*#65ccb8*/
     font-weight: 600;
     font-size: calc(6px + 1vmin);
 }
@@ -63,7 +63,7 @@ input[type="range"] {
     width: 100%;
     border-radius: 5vmin;
     background: transparent;
-    border: 1px solid #525252;
+    border: 1px solid #999999; /*#525252*/
 }
 
 input[type=range]::-ms-track {
@@ -72,7 +72,7 @@ input[type=range]::-ms-track {
   background: transparent; 
   border-color: transparent;
   color: transparent;
-  border: 1px solid #525252;
+  border: 1px solid #999999; /*#525252*/
 }
 
 input[type=range]::-webkit-slider-runnable-track {
@@ -89,7 +89,7 @@ input[type=range]::-webkit-slider-thumb {
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    background: #65ccb8;
+    background: #ff4040; /*#65ccb8*/
     margin-top: -5px;
 }
 
@@ -99,7 +99,7 @@ input[type=range]:focus::-webkit-slider-thumb {
     height: 18px;
     width: 18px;
     border-radius: 50%;
-    background: #65ccb8;
+    background: #ff4040; /*#65ccb8*/
     margin-top: -6px;
 }
 
