@@ -76,7 +76,7 @@ export default class DataViewer extends Component {
                                     `Per-Residue Free Energy Decomposition: ${plotTitleFragment}
                                     <br>
                                     <span style="font-size: 14">
-                                        Binding Affinity (\u0394G) = ${Math.round((this.state.decompositionData.binding_affinity.average + Number.EPSILON) * 100) / 100}
+                                        Binding Affinity (\u0394G) = ${Math.round(this.state.decompositionData.binding_affinity.average * 100) / 100}
                                     </span>`, 
                                 xaxis: {
                                     zeroline:false, 
