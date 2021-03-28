@@ -46,8 +46,18 @@ export default class App extends Component {
           <h2>
             About
           </h2>
+          <p>
+            The emergence of numerous SARS-CoV-2 variants across the globe is posing new challenges in tackling the ongoing pandemic. 
+            Especially, mutations in the receptor binding domain (RBD) on the spike protein may have a larger impact due to their 
+            critical role in human ACE2 recognition. Through CoVarACE, we describe the changes in binding affinity and the key 
+            residues related to the complexes of ACE2 with {'>'}50 RBD mutants assessed using molecular dynamics simulation.
+          </p>
           <ul>
-            <li>add instructions/info here</li>
+            <li>Select a variant from the dropdown below to view its associated per-residue free energy decomposition.</li>
+            <li>Use mouse or trackpad controls to interact with the structure visualization viewport.</li>
+            <li>Use the available toggles on the free energy decomposition plot to highlight specific data points and save the plot to an image.</li>
+            <li>Customize the representation of the Spike-ACE2 complex through the representation dropdown.</li>
+            <li>Adjust the threshold to view key residues with an energy contribution below this value.</li>
           </ul>
         </div>
         <VariantSelect 
