@@ -47,10 +47,24 @@ export default class App extends Component {
             About
           </h2>
           <p>
-            The emergence of numerous SARS-CoV-2 variants across the globe is posing new challenges in tackling the ongoing pandemic. 
-            Especially, mutations in the receptor binding domain (RBD) on the spike protein may have a larger impact due to their 
-            critical role in human ACE2 recognition. Through CoVarACE, we describe the changes in binding affinity and the key 
-            residues related to the complexes of ACE2 with {'>'}50 RBD mutants assessed using molecular dynamics simulation.
+            Coronavirus pandemic caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) 
+            remains a serious health concern for human population and has already resulted in over 
+            2.5 million deaths worldwide. While a few RNA-based vaccines have been developed and the 
+            preparation to vaccinate the global human population is underway, the emergence of numerous 
+            SARS-CoV-2 variants across the globe is posing new challenges in tackling the ongoing pandemic. 
+            Especially, mutations in the receptor binding domain (RBD) on the spike protein of SARS-CoV-2 may 
+            have a larger impact due to their critical role in recognition of human angiotensin-converting enzyme 2 (ACE2) 
+            for inducing the viral infection. Therefore, our team is focussed on building atomistic models of the 
+            SARS-CoV-2 RBD variants and understanding their impacts on the specific molecular interactions of 
+            spike RBD with human ACE2. CoVarACE is a database that disseminates the qualitative and quantitative 
+            insights gained from our scientific efforts.
+          </p>
+          <br />
+          <p>
+            <i>
+              Disclaimer: The goal of this database to share our new knowledge as they are gained to promote COVID-19 research. 
+              The research is still not peer-reviewed and will be shortly submitted for publication in a suitable journal.
+            </i>
           </p>
           {
             false &&
@@ -63,6 +77,23 @@ export default class App extends Component {
               <li>[in development] Adjust the threshold to view key residues with an energy contribution below this value.</li>
             </ul>
           }
+          <br />
+          <p>
+            If any information from this database is used for research purposes, please cite the following source:
+          </p>
+          <br />
+          <p>
+            <i>
+              Fizal F., Do Le, D.L., Kalyaanamoorthy, S, Ganesan, A, 
+              “CoVarACE - an online repository describing the effects of spike mutations on 
+              human ACE2 recognition by SARS-CoV-2 variants assessed using in silico analyses”, 
+              University of Waterloo-School of Pharmacy Research Day 2021, 5-May-2021.
+            </i>
+          </p>
+          <br />
+          <p>
+            For more information contact: Dr. Ganesan (a.ganesan@uwaterloo.ca); Dr. Kalyaanamoorthy (subha.kalyaanamoorthy@uwaterloo.ca).
+          </p>
         </div>
         <VariantSelect 
           handleVariantSelect={(selection) => this.handleVariantSelect(selection) }
