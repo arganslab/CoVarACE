@@ -54,7 +54,7 @@ export default class App extends Component {
             SARS-CoV-2 variants across the globe is posing new challenges in tackling the ongoing pandemic. 
             Especially, mutations in the receptor binding domain (RBD) on the spike protein of SARS-CoV-2 may 
             have a larger impact due to their critical role in recognition of human angiotensin-converting enzyme 2 (ACE2) 
-            for inducing the viral infection. Therefore, our team is focussed on building atomistic models of the 
+            for inducing the viral infection. Therefore, our team is focused on building atomistic models of the 
             SARS-CoV-2 RBD variants and understanding their impacts on the specific molecular interactions of 
             spike RBD with human ACE2. CoVarACE is a database that disseminates the qualitative and quantitative 
             insights gained from our scientific efforts.
@@ -62,7 +62,7 @@ export default class App extends Component {
           <br />
           <p>
             <i>
-              Disclaimer: The goal of this database to share our new knowledge as they are gained to promote COVID-19 research. 
+              Disclaimer: The goal of this database is to share our new knowledge as they are gained to promote COVID-19 research. 
               The research is still not peer-reviewed and will be shortly submitted for publication in a suitable journal.
             </i>
           </p>
