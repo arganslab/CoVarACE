@@ -1,6 +1,6 @@
 {
-  "homepage": "https://farisfizal.github.io/sars-cov-2-vis",
-  "name": "sars-cov-2-vis",
+  "homepage": "https://farisfizal.github.io/CoVarACE",
+  "name": "CoVarACE",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
