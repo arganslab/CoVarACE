@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 
 import DataViewer from './components/DataViewer';
 import Footer from './components/Footer';
@@ -7,6 +8,8 @@ import StructureViewer from './components/StructureViewer';
 import VariantSelect from './components/VariantSelect';
 import './App.css';
 
+
+ReactGA.initialize('UA-193185054-1');
 
 export default class App extends Component {
   constructor(props) {
@@ -22,6 +25,7 @@ export default class App extends Component {
   }
 
   componentDidMount() {
+    ReactGA.pageview(window.location.pathname);
     this.updateDimensions();
     window.addEventListener("resize", this.updateDimensions);
   }
