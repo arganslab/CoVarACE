@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/CoVarACE/static/css/main.1592e15c.chunk.css",
-    "main.js": "/CoVarACE/static/js/main.b497e11e.chunk.js",
-    "main.js.map": "/CoVarACE/static/js/main.b497e11e.chunk.js.map",
-    "runtime-main.js": "/CoVarACE/static/js/runtime-main.4a824964.js",
-    "runtime-main.js.map": "/CoVarACE/static/js/runtime-main.4a824964.js.map",
+    "main.js": "/CoVarACE/static/js/main.4d2bfc92.chunk.js",
+    "main.js.map": "/CoVarACE/static/js/main.4d2bfc92.chunk.js.map",
+    "runtime-main.js": "/CoVarACE/static/js/runtime-main.c7712929.js",
+    "runtime-main.js.map": "/CoVarACE/static/js/runtime-main.c7712929.js.map",
     "static/css/2.fe708519.chunk.css": "/CoVarACE/static/css/2.fe708519.chunk.css",
-    "static/js/2.5e70d54a.chunk.js": "/CoVarACE/static/js/2.5e70d54a.chunk.js",
-    "static/js/2.5e70d54a.chunk.js.map": "/CoVarACE/static/js/2.5e70d54a.chunk.js.map",
-    "static/js/3.31cf0b14.chunk.js": "/CoVarACE/static/js/3.31cf0b14.chunk.js",
-    "static/js/3.31cf0b14.chunk.js.map": "/CoVarACE/static/js/3.31cf0b14.chunk.js.map",
+    "static/js/2.db252894.chunk.js": "/CoVarACE/static/js/2.db252894.chunk.js",
+    "static/js/2.db252894.chunk.js.map": "/CoVarACE/static/js/2.db252894.chunk.js.map",
+    "static/js/3.e6037ef5.chunk.js": "/CoVarACE/static/js/3.e6037ef5.chunk.js",
+    "static/js/3.e6037ef5.chunk.js.map": "/CoVarACE/static/js/3.e6037ef5.chunk.js.map",
     "index.html": "/CoVarACE/index.html",
     "static/css/2.fe708519.chunk.css.map": "/CoVarACE/static/css/2.fe708519.chunk.css.map",
     "static/css/main.1592e15c.chunk.css.map": "/CoVarACE/static/css/main.1592e15c.chunk.css.map",
-    "static/js/2.5e70d54a.chunk.js.LICENSE.txt": "/CoVarACE/static/js/2.5e70d54a.chunk.js.LICENSE.txt",
+    "static/js/2.db252894.chunk.js.LICENSE.txt": "/CoVarACE/static/js/2.db252894.chunk.js.LICENSE.txt",
     "static/media/CC_logo.614ac537.png": "/CoVarACE/static/media/CC_logo.614ac537.png",
     "static/media/CFREF_logo.1e219b9f.png": "/CoVarACE/static/media/CFREF_logo.1e219b9f.png",
     "static/media/heading_1024.4fd3a08c.png": "/CoVarACE/static/media/heading_1024.4fd3a08c.png",
     "static/media/uwaterloo_logo.9c5bbc4c.png": "/CoVarACE/static/media/uwaterloo_logo.9c5bbc4c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a824964.js",
+    "static/js/runtime-main.c7712929.js",
     "static/css/2.fe708519.chunk.css",
-    "static/js/2.5e70d54a.chunk.js",
+    "static/js/2.db252894.chunk.js",
     "static/css/main.1592e15c.chunk.css",
-    "static/js/main.b497e11e.chunk.js"
+    "static/js/main.4d2bfc92.chunk.js"
   ]
 }
