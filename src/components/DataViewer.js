@@ -72,7 +72,7 @@ export default class DataViewer extends Component {
                             layout={ {
                                 width: 0.4 * this.props.vWidth, 
                                 height: 0.6 * this.props.vHeight, 
-                                title: `Per-Residue Free Energy Decomposition: ${plotTitleFragment}<br><span style="font-size: 14">Binding Affinity (\u0394G) = ${Math.round(this.state.decompositionData.binding_affinity.average * 100) / 100}</span>`, 
+                                title: `Per-Residue Free Energy Decomposition: ${plotTitleFragment}`, //<br><span style="font-size: 14">Binding Affinity (\u0394G) = ${Math.round(this.state.decompositionData.binding_affinity.average * 100) / 100}</span>`, 
                                 xaxis: {
                                     zeroline:false, 
                                     title: 'Residue ID', 
