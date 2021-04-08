@@ -8,7 +8,10 @@ import './VariantSelect.css';
 // check N501Y continent
 // deal with multiple origins: L452M, N501Y, S494P, P330S, S477N, A520S, E484Q, A348S, N481K, V362F
 // note acronyms or special: USA, England
-const variantOptions = require('../data/variantList.json');
+let variantOptions = require('../data/variantList.json');
+variantOptions = variantOptions.slice(0, 2).concat(variantOptions.slice(2).sort(
+  (a, b) => parseInt(a.value.slice(1, 4), 10) - parseInt(b.value.slice(1, 4), 10)
+));
 
 const customStyles = {
   option: (provided, state) => {
